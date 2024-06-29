@@ -5,6 +5,7 @@ function App() {
 
   return (
     <div>
+      <h1>Hi, world!</h1>
       <button onClick={decrement}>-</button>
       <h1 role="heading">{count}</h1>
       <button onClick={increment}>+</button>
