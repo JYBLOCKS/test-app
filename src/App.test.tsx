@@ -4,7 +4,7 @@ import App from "./App";
 describe("App", () => {
   it("should display counter, do the increment and decrement actions", () => {
     render(<App />);
-    const count = screen.queryByRole("heading");
+    const count = screen.queryAllByRole("heading")[1];
     expect(count).toHaveTextContent("0");
     /// increment
     const buttonIncrement = screen.getByRole("button", { name: "+" });
