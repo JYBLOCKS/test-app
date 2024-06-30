@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "test": "jest",
     "test:watch": "jest --watchAll",
-    "test:coverage": "jest --watchAll"
+    "test:coverage": "jest --coverage --coverageReporter=jest-codemods"
   },
   "dependencies": {
     "react": "^18.3.1",
